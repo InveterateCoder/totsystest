@@ -1,15 +1,26 @@
 # TOT Systems' test
-### Завершённый тест дла _TOT Systems_ ###
+### Завершённый тест для _TOT Systems_ ###
 
 Познакомиться со мной можно [здесь](http://arthur-grigoryan.ga)
 
+<br />
+
 ## Запуск ##
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-| | Content in the second column
-| | Else
+1. Склонировать данный репозиторий
+1. Убедившись, что на компьютере установлен NodeJS, установить все зависимости (npm i из под папки где находится package.json)
+1. Запустить в режиме development (npm start из под той же папки)
+
+## Технологии ##
+
+Описание | Технологии
+-------- | ----------
+Клиент   | react (библиотека)
+|| react-router-dom (URL маршрутизация на стороне клиента)
+|| redux / react-redux (централизованное хранилище для компонентов)
+СSS      | bootstrap 4 (CSS фрейм от Twitter)
+|| react-bootstrap (поддержка bootstrap еффектов без завизимости от JQuery)
+
 
 ```javascript
 function fancyAlert(arg) {
