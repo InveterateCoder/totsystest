@@ -1,0 +1,38 @@
+#head {
+  position: sticky;
+  top:55px;
+  background-color: white;
+}
+#chat_content {
+  border-left: 1px dotted var(--dark);
+  border-right: 1px dotted var(--dark);
+  margin-bottom: 70px !important;
+  overflow: hidden;
+}
+#input_shell {
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+}
+.float-right {
+  clear: both;
+}
+
+@media screen and (min-width: 576px){
+}
+@media screen and (min-width: 768px){
+  .media {
+    max-width: 80%;
+  }
+}
+@media screen and (min-width: 992px){
+  .media {
+    max-width: 70%;
+  }
+}
+@media screen and (min-width: 1200px){
+  .media {
+    max-width: 60%;
+  }
+}

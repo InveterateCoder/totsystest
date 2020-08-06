@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "semi": "off",
+    "arrow-parens": "off",
+    "import/extensions": "off",
+    "react/prop-types": "off"
+  }
+}
